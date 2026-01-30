@@ -1,9 +1,39 @@
+html{
+    background-color: red;
+    height: 100%;
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: lightblue;
+    height: 90%;
 }
 h1{
     text-align: center;
 }
 img{
     display: block;
+    margin: auto;
+}
+
+#wrapper{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: cadetblue;
+    padding: 1rem;
+    
+}
+main{
+    background-color: cornflowerblue;
+    padding: 1rem;
+    flex: 1;
+}
+footer{
+    background-color: darkcyan;
+    padding: 1rem;
+    
 }
